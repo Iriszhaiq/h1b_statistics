@@ -5,11 +5,11 @@
 * [Approach](#Approach)
 * [Run instructions](#Run_instruction)
 
-##Problem
+## Problem
 A newspaper editor was researching immigration data trends on H1B(H-1B, H-1B1, E-3) visa application processing over the past years, trying to identify the occupations and states with the most number of approved H1B visas. She has found statistics available from the US Department of Labor and its [Office of Foreign Labor Certification Performance Data](https://www.foreignlaborcert.doleta.gov/performancedata.cfm#dis). But while there are ready-made reports for [2018](https://www.foreignlaborcert.doleta.gov/pdf/PerformanceData/2018/H-1B_Selected_Statistics_FY2018_Q4.pdf) and [2017](https://www.foreignlaborcert.doleta.gov/pdf/PerformanceData/2017/H-1B_Selected_Statistics_FY2017.pdf), the site doesn’t have them for past years. 
 
 The main task is to create a mechanism to analyze past years data, specificially calculate two metrics: **Top 10 Occupations** and **Top 10 States** for **certified** visa applications.
-##Approach
+## Approach
 In order to get the sorted list of occupation and states based on the certified application number, I listed my approach as below:
 
 
@@ -26,7 +26,7 @@ In order to get the sorted list of occupation and states based on the certified 
 	- The sorted mechanism is based on dictionary's **value** (in reverse order) and **key** if value in a tie.
 
 
-##Run Instructions
+## Run Instructions
 
 Run `run.sh` under root directory and the output would be stored under the `./output` folder.
 
